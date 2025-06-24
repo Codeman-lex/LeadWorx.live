@@ -26,3 +26,30 @@ lit-dialog,
     border: 0 !important;
     overflow: hidden !important;
 }
+
+/* Hide Manus elements */
+manus-content-root,
+[data-manus],
+[class*="manus"],
+lit-dialog,
+.dialog-header-title,
+.footer-button,
+.btn-link,
+.btn-text,
+[href*="manus"],
+[title*="Manus"],
+[title*="manus"],
+#manus-badge {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    position: absolute !important;
+    pointer-events: none !important;
+    clip: rect(0 0 0 0) !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    overflow: hidden !important;
+}
